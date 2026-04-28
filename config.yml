@@ -1,0 +1,82 @@
+baseURL: "https://mevipa.github.io" 
+title: Melanie Viola Partsch
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+taxonomies:
+    tag: tags
+
+
+ 
+
+params:
+    description: "This website hosts Melanie Viola Partsch's research papers, course materials, data, curriculum vitae, and contact information."
+    author: Melanie Viola Partsch
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    #MainSections: ["papers","talks","teaching","tools"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Dr. Melanie Viola Partsch
+          subtitle: "After completing my PhD as a research associate at the GESIS Leibniz Institute for the Social Sciences in Mannheim and the University of Education Weingarten, I am currently a postdoctoral researcher at the Department of Methodology and Statistics at Utrecht University. My research focuses on **psychometric methods**, particularly the development of **machine-learning-based approaches** for detecting and classifying misspecifications in **structural equation models**. I am also interested in **applied psychometrics**, especially the measurement and hierarchical modeling of character, values, and personality constructs. I am a member of the **[Measurement & Machine Learning Lab](https://dgoretzko.github.io/Measurement-ML/)** group."          
+          imageUrl: "picture.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+
+    socialIcons:
+        - name: CV
+          url: cv.pdf
+        - name: Email
+          url: mailto:m.v.partsch@uu.nl
+        - name: Location
+          url: location/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=dAXVhIQAAAAJ&hl=en
+        - name: ORCID
+          url: https://orcid.org/0000-0002-0216-0492
+        - name: MML
+          url: https://dgoretzko.github.io/Measurement-ML/
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Melanie Viola Partsch"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
