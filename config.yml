@@ -40,7 +40,19 @@ params:
     profileMode:
           enabled: true
           title: Dr. Melanie Viola Partsch
-          subtitle: "After completing my PhD as a research associate at the GESIS Leibniz Institute for the Social Sciences in Mannheim and the University of Education Weingarten, I am currently a postdoctoral researcher at the Department of Methodology and Statistics at Utrecht University. My research focuses on **psychometric methods**, particularly the development of **machine-learning-based approaches** for detecting and classifying misspecifications in **structural equation models**. I am also interested in **applied psychometrics**, especially the measurement and hierarchical modeling of character, values, and personality constructs. I am a member of the **[Measurement & Machine Learning Lab](https://dgoretzko.github.io/Measurement-ML/)** group."          
+          subtitle: |
+            I am a postdoctoral researcher at the Department of Methodology, Statistics & Data Science at Utrecht University, where I tackle methodological challenges in **psychometrics** with modern **machine learning (ML)** approaches.
+
+            I came to methods through measurement in practice. As a doctoral researcher at GESIS – Leibniz Institute for the Social Sciences, I developed and validated scales for cross-national large-scale surveys to measure various character, value, and personality constructs. Working on the applied side of psychometrics left me both intrigued and disillusioned by the methods we use in psychological measurement, so I became a methodologist.
+
+            As a postdoc, I have been developing ML approaches for model fit evaluation in **Structural Equation Modeling (SEM)**. The resulting ML tools evaluate the fit of measurement models in SEM more accurately and guide substantive researchers through the revision process of their measurement model, instrument, or theory. 
+            Looking ahead, I want to broaden the scope of this research line by utilizing machine learning in the context of item response theory, longitudinal data analysis, and **psychological theory formation**.       
+
+            Currently, I work in the NWO-funded research infrastructure project *The Macroscope* on better aligning questions from Dutch surveys.
+            I am a member of the **Data Quality Group** at Utrecht University and of the **[Measurement & Machine Learning Lab](https://dgoretzko.github.io/Measurement-ML/)**. 
+            
+            My research workflows incorporate Open Science practices. Wherever possible, I share my preprints, code, data, and the measurement instruments I have developed openly. My ML tools are already applicable as open-access R implementations, and I currently bundle them in the R package `semml` (available on CRAN soon).
+            
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
